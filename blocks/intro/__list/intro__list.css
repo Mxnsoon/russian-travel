@@ -1,10 +1,15 @@
 .intro__list {
     margin-left: 0;
-    font-family: "Inter";
     font-style: normal;
     font-weight: bold;
+    max-width: 690px;
     font-size: 12px;
     line-height: 1.5;
     color: #FFFFFF;
     list-style: none;
+}
+@media screen and (max-width: 768px;){
+.intro__list {
+    max-width: 720px;
+}
 }

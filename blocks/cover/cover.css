@@ -7,8 +7,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #ffffff;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto 92px;
     max-width: 1184px;
-    height: 740px;
-    color: #FFFFFF;
-    margin: 92px auto 0;
+    min-height: calc((100vw) * 0.625);
+    background-image: url(../../images/__background.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
 }
