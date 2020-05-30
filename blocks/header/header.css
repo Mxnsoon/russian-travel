@@ -4,20 +4,24 @@
 @import url(./__lang-link/_underline/header_lang-link_underline.css);
 
 .header {
-    padding: 24px 48px 0;
+    padding: 24px auto 0;
     max-width: 1184px;
-    max-height: 52px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    margin:0 48px 0;
+}
+@media screen and (max-width: 768px){
+    .header {
+        margin:0 24px 0;
+    }
 }
 @media screen and (max-width: 320px){
     .header {
         max-width: 288px;
+        margin:0 16px 0;
     }
 }
 

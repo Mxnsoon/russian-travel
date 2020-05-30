@@ -8,3 +8,8 @@
     max-width: 984px;
 
 }
+@media screen and (max-width: 320px){
+    .lead {
+        max-width: 320px;
+    }
+}

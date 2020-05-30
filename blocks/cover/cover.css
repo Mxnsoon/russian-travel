@@ -9,11 +9,17 @@
     flex-direction: column;
     color: #ffffff;
     text-rendering: optimizeLegibility;
-    margin: 0 auto 92px;
+    margin: 64px auto 0;
     max-width: 1184px;
-    min-height: calc((100vw) * 0.625);
+    height: calc(100vw*0.625);
     background-image: url(../../images/__background.jpg);
     background-size: cover;
     background-position: center;
     object-fit: fill;
+    background-position: center;
+}
+@media screen and (min-width: 1280px){
+    .cover {
+        max-height: 740px;
+    }
 }

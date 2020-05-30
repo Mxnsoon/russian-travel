@@ -16,5 +16,7 @@
     .place__paragraph {
         font-size: 16px;
         max-width: 288px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
