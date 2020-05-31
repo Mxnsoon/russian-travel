@@ -8,3 +8,8 @@
     margin: 0;
 
 }
+@media screen and (max-width: 768px){
+    .footer__copyright {
+        max-width: 186px;
+    }
+}

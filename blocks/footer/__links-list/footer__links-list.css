@@ -1,0 +1,8 @@
+.footer__links-list{
+
+}
+@media screen and (max-width: 320px){
+    .footer__links-list {
+        margin-bottom: 32px;
+    }
+}

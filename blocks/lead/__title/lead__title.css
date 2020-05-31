@@ -6,8 +6,16 @@
     margin: 56px auto 0;
     color: #FFFFFF;
     max-width: 720px;
+    min-width: 288px;
 
 
+}
+@media screen and (max-width: 690px){
+    .lead__title {
+        max-width: calc(100vw*0.9375);
+        font-size: 40px;
+
+    }
 }
 @media screen and (max-width: 320px) {
     .lead__title {
