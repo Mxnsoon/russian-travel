@@ -1,5 +1,5 @@
-@import url(./__links-list/footer__linkslist.css);
-@import url(./__links-navigation/footer__links-navigation.css);
+@import url(./__list/footer__list.css);
+@import url(./__link-item/footer__link-item.css);
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
@@ -30,5 +30,6 @@
         max-width: 186px;
         margin-top: 64px;
         min-height: 310px;
+        margin-left: 16px;
     }
 }
