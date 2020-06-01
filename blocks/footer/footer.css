@@ -22,11 +22,9 @@
         max-width: 93.75%;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 580px){
     .footer {
-        display:flex;
         flex-direction: column;
-        justify-content: space-between;
         max-width: 186px;
         margin-top: 64px;
         margin-left: 16px;
